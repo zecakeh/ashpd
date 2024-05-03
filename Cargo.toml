@@ -51,7 +51,7 @@ wayland-protocols = { version = "0.31", optional = true, features = [
     "unstable",
     "client",
 ] }
-zbus = { version = "4.0", default-features = false, features = ["url"] }
+zbus = { git = "https://github.com/zeenix/zbus", rev = "1b1a1ddd9c9f9f0af335ef74cbd50aad278b5cee", default-features = false, features = ["url"] }
 
 [dev-dependencies]
 serde_json = "1.0"
